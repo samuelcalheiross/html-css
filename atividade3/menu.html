@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilizando listas</title>
+</head>
+
+<style>
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: black;
+    align-items: center;
+    display: flex;
+    height: 80px;
+}
+
+nav ul {
+    color: white;
+    display: flex;
+    list-style-type:none;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+}
+
+nav a {
+    text-decoration:none;
+    color: white;
+    display: block;
+    padding: 18px 18px;
+    margin: 0px 10px;
+}
+
+.bt {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.bt:hover {
+    background-color: #242424;
+}
+
+</style>
+
+<body>
+    <nav>
+        <ul>
+            <li class="bt"><a href="#">home</a></li>
+            <li class="bt"><a href="#">about</a></li>
+            <li class="bt"><a href="#">products</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
